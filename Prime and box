@@ -15,3 +15,32 @@ for i in range(10):
     print("*                 *")
 for i in range(10):
     print("*",end=" ")
+
+import calendar
+a = int(input("Enter any year"))
+res = calendar.calendar(a)
+print(res)
+
+import calendar
+a = int(input("Enter any year"))
+b = int(input("Enter any month"))
+res = calendar.month(a,b)
+print(res)
+
+from datetime import date
+a = date(2005,12,27)
+b = date(2026,4,28)
+print("No.of days on the earth: ",b-a)
+
+from datetime import date
+a = date(2005,12,27)
+b = date(2026,4,28)
+print("No.of seconds on the earth: ",(b-a).total_seconds()/3600)
+
+sum = 0
+while(True):
+    a = int(input("Enter the amount in Rs:"))
+    sum = sum+a
+    if a==0:
+        break
+print("The total is : {}rs".format(sum))

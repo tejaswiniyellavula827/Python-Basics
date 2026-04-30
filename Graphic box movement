@@ -1,0 +1,6 @@
+import turtle
+t=turtle.Turtle()
+for i in range(10):
+    t.forward(50)
+    t.left(40)
+t.done()

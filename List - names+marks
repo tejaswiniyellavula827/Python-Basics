@@ -1,0 +1,7 @@
+names = ["Teju","Archu","Poush","Prassu","Taj"]
+marks = [37,50,55,39,60]
+p=1
+for i in range(5):
+    if marks[i]>40:
+        print("{}. {} has passed with {}%".format(p,names[i],marks[i]))
+        p=p+1

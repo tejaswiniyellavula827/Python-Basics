@@ -1,0 +1,7 @@
+name = input("Enter your name: ")
+salary = int(input("Enter your salary: "))
+desgn = input("Enter your position: ")
+taxlist = {'TL':10,'Manager':20,'Fresher':5,'Developer':15}
+tax = taxlist[desgn]
+res=tax/100*salary
+print("{} has to pay tax of {} ".format(name,res))

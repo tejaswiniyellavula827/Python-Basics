@@ -1,0 +1,18 @@
+maths=["Raj","Anu","Kiran","Bala","Pavi"]
+political=["Raj","Bala","Meera","Peter","Frank"]
+social=["Charan","Raj","Meera","Arun","Mohan"]
+m=set(maths)
+p=set(political)
+s=set(social)
+s3=list(m&p&s)
+print("Three subjects:",s3)
+mp = m&p
+ps = p&s
+sm = s&m
+s2=list((mp|ps|sm)-(m&p&s))
+print("Two subjects:",s2)
+pm = m-p
+sp = p-s
+ms = s-m
+s3 = list((pm|sp|ms)-((mp|ps|sm)-(m&p&s)))
+print("One subject:",s3)

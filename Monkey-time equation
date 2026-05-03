@@ -1,0 +1,14 @@
+x=int(input("Enter x value:"))
+y=int(input("Enter y value:"))
+z=int(input("Enter z value:"))
+time=0
+ht=0
+i=1
+while(ht<x):
+    if(i%2==1):
+        ht=ht+y
+    else:
+        ht=ht-z
+    i=i+1
+    time=time+1
+print("The time taken:",time)

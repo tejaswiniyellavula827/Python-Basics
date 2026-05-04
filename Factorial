@@ -1,0 +1,8 @@
+def fact(a):
+    if a==1:
+        return 1
+    else:
+        return a*fact(a-1)
+a = int(input("Enter any num: "))
+res = fact(a)
+print("The factorial of {} is {}.".format(a,res))

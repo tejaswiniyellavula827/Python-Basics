@@ -1,0 +1,33 @@
+country="India"
+class ace:
+    col="ACE ENGINEERING COLLEGE"
+    def marks_total(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1.Name: ",self.name)
+        print("2.Total: ",self.tot)
+        print("3.College: ",ace.col)
+        print("4.Country: ",country)
+class bvrit:
+    col="BVRIT WOMEN COLLEGE"
+    def total_marks(self,a,b,c):
+        self.tot=a+b
+        self.name=c
+    def show(self):
+        print("1.Name: ",self.name)
+        print("2.Total: ",self.tot)
+        print("3.College: ",bvrit.col)
+        print("4.Country: ",country)
+a=ace()
+a1=ace()
+b=bvrit()
+b1=bvrit()
+a.marks_total(87,98,75,"Naga")
+a1.marks_total(85,92,79,"Teju")
+b.total_marks(78,98,"Ayesha")
+b1.total_marks(91,86,"Bhavi")
+a.display()
+a1.display()
+b.show()
+b1.show()

@@ -1,0 +1,15 @@
+class India:
+    def show_capital(self):
+        print("Delhi")
+class Telangana(India):
+    def chiefminister(self):
+        print("Revanth Reddy")
+class Andhra(Telangana):
+    def language(self):
+        print("Telugu")
+a=India()
+b=Telangana()
+c=Andhra()
+c.show_capital()
+c.chiefminister()
+c.language()

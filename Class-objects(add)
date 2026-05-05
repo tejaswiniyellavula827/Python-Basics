@@ -1,0 +1,12 @@
+class abc:
+    msg = "Good Morning"
+    def set_dim(self,a,b):
+        self.tot=a+b
+    def display(self):
+        print("The sum is ",self.tot)
+a=abc()
+b=abc()
+a.set_dim(20,40)
+b.set_dim(45,55)
+a.display()
+b.display()

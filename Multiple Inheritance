@@ -1,0 +1,16 @@
+class HOD:
+    def academics(self):
+        print("Starts from June 29")
+class year1(HOD):
+    def year1_res(self):
+        print("1ST year students learn html")
+class year2(HOD):
+    def year2_res(self):
+        print("2nd year students learn python")
+a=HOD()
+b=year1()
+c=year2()
+b.academics()
+b.year1_res()
+c.academics()
+c.year2_res()

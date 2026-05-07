@@ -1,0 +1,9 @@
+num1=int(input("Digit1: "))
+num2=int(input("Digit2: "))
+num3=int(input("Digit3: "))
+lst1=[int(i) for i in str(num1)]
+lst2=[int(i) for i in str(num2)]
+lst3=[int(i) for i in str(num3)]
+sum1 = max(lst1)+max(lst2)+max(lst3)
+sum2 = min(lst1)+min(lst2)+min(lst3)
+print(sum1+sum2)

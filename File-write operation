@@ -1,0 +1,8 @@
+from googletrans import Translator
+t = Translator()
+data = input("Enter the data you want to convert: ")
+lang = input("Entetr the target language: ")
+res=t.translate(data,dest=lang)
+print(res.text)
+with open("Teju.txt","a",encoding="utf-8") as file: 
+    file.write(str(res.text))

@@ -1,0 +1,8 @@
+a = open("sample.txt",'r')
+l=[]
+res = a.readlines()
+while res:
+    l.append(res)
+    res=a.readlines()
+a.close()
+print(l)
